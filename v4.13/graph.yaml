@@ -53,20 +53,20 @@ entries:
           - rhtas-operator.v1.0.2
           - rhtas-operator.v1.1.0
   - schema: olm.bundle
+    name: rhtas-operator.v1.0.0
     image: registry.redhat.io/rhtas/rhtas-operator-bundle@sha256:436bd1212fdd707987f3f2158d18912a85493299218e7ab6ad5cb212076ffb3d
-    # rhtas-bundle-registry v1.0.0
   - schema: olm.bundle
+    name: rhtas-operator.v1.0.1
     image: registry.redhat.io/rhtas/rhtas-operator-bundle@sha256:fce368e485b71a4a2867b10255fe8f7a89060a77f3f59ca93a3882dbf87e3ebc
-    # rhtas-bundle-registry v1.0.1
   - schema: olm.bundle
+    name: rhtas-operator.v1.0.2
     image: registry.redhat.io/rhtas/rhtas-operator-bundle@sha256:496b29b00a9831278eb3a8316bd5fb233ad73cb9a6217b1ff4a5f72a91b87414
-    # rhtas-bundle-registry v1.0.2
   - schema: olm.bundle
+    name: rhtas-operator.v1.1.0
     image: registry.redhat.io/rhtas/rhtas-operator-bundle@sha256:d423c8f491a008886926520e12fdd86a5878ce6b5b169100ba495689cff42f2c
-    # rhtas-bundle-registry v1.1.0
   - schema: olm.bundle
-    image: registry.redhat.io/rhtas/rhtas-operator-bundle@sha256:acf451a0726a0e937edc38d30a022f59d05808566a132f611d8c4b79d6c71a73
-    # rhtas-bundle-registry v1.1.1
+    name: rhtas-operator.v1.1.1
+    image: quay.io/securesign/rhtas-operator-bundle-v1-1@sha256:acf451a0726a0e937edc38d30a022f59d05808566a132f611d8c4b79d6c71a73
   - schema: olm.deprecations
     package: rhtas-operator
     entries:
