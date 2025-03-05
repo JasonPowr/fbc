@@ -1535,7 +1535,7 @@
     "schema": "olm.bundle",
     "name": "rhtas-operator.v1.2.0",
     "package": "rhtas-operator",
-    "image": "quay.io/redhat-user-workloads/japower-tenant/rhtas-operator-bundle@sha256:aeed091132c7700ef8d77c7e5d0d29143400fb376158bd9f362998be68da0116",
+    "image": "quay.io/redhat-user-workloads/japower-tenant/rhtas-operator-bundle@sha256:770045e3be65a6217434c27a7834515367f124f230a2e1e5560e8a3de2f5a31a",
     "properties": [
         {
             "type": "olm.gvk",
